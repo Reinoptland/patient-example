@@ -128,7 +128,7 @@ const emails = patients.map(function (patient) {
     <html> 
         <head></head>
         <body>
-            <p>    ${email}</p>
+            <p>To: ${email}</p>
             <h1>Hello ${firstName} ${lastName} </h1>
             Thank you for participating in our study
         </body>
